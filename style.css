@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+section{
+    height: 650px;
+}
+
+/* Start banner area */
+
+.half-width{
+    width: 43%;
+    float: left;
+    padding: 4% 3%;
+    height: 80%;
+}
+.details-container{
+    padding-top: 10%;
+    height: 70%;
+}
+.half-width img{
+    width: 100%;
+}
+.banner-area{
+    background: url(images/header-bg.png);
+    
+}
+.deeppink-text{
+    color: #FF1493;
+}
+.half-width .name-banner{
+    font-size: 40px;
+    letter-spacing: 4px;
+    line-height: 8px;
+}
+.para{
+    font-size: 16px;
+    color: gray;
+    padding: 2% 0;
+    text-align: justify;
+}
+.link-button{
+    text-decoration: none;
+    background: linear-gradient(45deg,#FF1493,#a33871);
+    color: white;
+    padding: 1% 4%;
+    border-radius: 4px;
+}
+/* End banner area */
+
+
+/* Start Bio area */
+.bio-area{
+    background: url(images/biography-bg.png);
+    height: 800px;
+}
+/* End Bio area */
+
+
+/* Start Latest Work area */
+.latest-work{
+    height: 500px;
+    background: url(images/latest-work-bg.png);
+}
+.latest-work-content{
+    height: 90%;
+    margin: 0% 6%;
+    margin-top: 6%;
+}
+.heading{
+    text-align: center;
+    margin: 5% 0;
+    padding-top: 1%;
+}
+.latest-work .latest-work-content .single-work{
+    width: 30%;
+    float: left;
+    margin: 1%;
+    box-shadow: 10px 10px 40px #d491ad;
+}
+.latest-work .latest-work-content .single-work:hover{
+    box-shadow: none;
+}
+.latest-work .latest-work-content .single-work img{
+    width: 100%;
+}
+/* End Latest Work area */
+
+
+/* Start Client area */
+.client-area{
+    text-align: center;
+    height: 400px;
+    background: url(images/header-bg.png);
+}
+.client-area .client-title .client-name{
+    font-weight: 700;
+}
+.client-area .mail-button-big{
+   background: linear-gradient(45deg,#FF1493,#a33871);
+   color: white;
+   line-height: 40px;
+   border-radius: 5px;
+   display: block;
+   width: 50%;
+   text-align: center;
+   margin-left: 25%;
+   text-decoration: none;
+}
+.client-area .mail-button-big span{
+    font-size: 25px;
+}
+/* End Client area */
+
+/* Start footer area */
+footer{
+    background: url(images/footer-bg.png);
+    height: 80px;
+}
+footer .footer-content{
+    color: black;
+    font-weight: 500;
+    text-align: center;
+    line-height: 30px;
+}
+/* Start footer area */
