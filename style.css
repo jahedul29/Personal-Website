@@ -6,7 +6,7 @@ section{
     height: 650px;
 }
 
-/* Start banner area */
+/*********************************************** Start banner area ********************************************/
 
 .half-width{
     width: 43%;
@@ -34,30 +34,34 @@ section{
     line-height: 8px;
 }
 .para{
-    font-size: 16px;
+    font-size: 20px;
     color: gray;
     padding: 2% 0;
     text-align: justify;
+    line-height: 30px;
 }
 .link-button{
     text-decoration: none;
     background: linear-gradient(45deg,#FF1493,#a33871);
     color: white;
-    padding: 1% 4%;
+    padding: 2% 6%;
     border-radius: 4px;
 }
-/* End banner area */
+.link-button:hover{
+    background: linear-gradient(45deg,#0d7c97,#adc71d);
+}
+/************************************************* End banner area *************************************************/
 
 
-/* Start Bio area */
+/************************************************** Start Bio area *************************************************/
 .bio-area{
     background: url(images/biography-bg.png);
     height: 800px;
 }
-/* End Bio area */
+/************************************************** End Bio area **************************************************/
 
 
-/* Start Latest Work area */
+/*************************************************** Start Latest Work area ***************************************/
 .latest-work{
     height: 500px;
     background: url(images/latest-work-bg.png);
@@ -84,10 +88,10 @@ section{
 .latest-work .latest-work-content .single-work img{
     width: 100%;
 }
-/* End Latest Work area */
+/******************************************* End Latest Work area ************************************************/
 
 
-/* Start Client area */
+/******************************************** Start Client area **************************************************/
 .client-area{
     text-align: center;
     height: 400px;
@@ -107,12 +111,16 @@ section{
    margin-left: 25%;
    text-decoration: none;
 }
+
+.client-area .mail-button-big:hover{
+    background: linear-gradient(45deg,#0d7c97,#adc71d);
+}
 .client-area .mail-button-big span{
     font-size: 25px;
 }
-/* End Client area */
+/**************************************************** End Client area ***********************************************/
 
-/* Start footer area */
+/**************************************************** Start footer area *********************************************/
 footer{
     background: url(images/footer-bg.png);
     height: 80px;
@@ -123,4 +131,4 @@ footer .footer-content{
     text-align: center;
     line-height: 30px;
 }
-/* Start footer area */
+/****************************************************** End footer area ********************************************/
