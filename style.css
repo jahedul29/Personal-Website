@@ -4,10 +4,58 @@ body{
 }
 section{
     height: 650px;
+    width: 93%;
+    margin-left: 7%;
+    padding-left: 1%;
 }
 
-/*********************************************** Start banner area ********************************************/
+/********************************************* Start Navbar area ****************************************/
+.navbar{
+    position: fixed;
+    margin-left: 0;
+    width: 7.5%;
+    height: 100%;
+    background: linear-gradient(#e9eff0,#efecf1);
+    padding-left: 0;
+}
+.content{
+    width: 100%;
+    display: block;
+    text-align: center;
+    
+}
+.navbar .content .nav-title{
+    color: rgb(43, 187, 43);
+    font-size: 25px;
+}
+.navbar .content .nav-item ul{
+    list-style: none;
+    padding-left: 0;
+}
+.navbar .content .nav-item ul li{
+    padding: 30% 0;
+    display: block;
+    font-weight: 550;
+    color: rgb(31, 30, 30);
+    width: 100%;
+}
+.navbar .content .nav-item ul li:hover{
+    background: #969e96;
+}
+.nav-item span{
+    font-size: 25px;
+    padding-top: 8%;
+    display: inline-block;
+}
+.nav-item span:hover{
+    background: rgb(58, 190, 190);
+}
+/*********************************************** End Navbar area **********************************************/
 
+/*********************************************** Start banner area ********************************************/
+.banner-area{
+    padding-left: 2%;
+}
 .half-width{
     width: 43%;
     float: left;
