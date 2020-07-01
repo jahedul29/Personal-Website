@@ -124,6 +124,7 @@ section{
 footer{
     background: url(images/footer-bg.png);
     height: 80px;
+    box-shadow: 0px 0px 10px black;
 }
 footer .footer-content{
     color: black;
